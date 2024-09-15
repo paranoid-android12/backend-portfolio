@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="tek.js"></script>
+</head>
+
+<body style="background-color: rgb(13, 13, 13); margin: 0px;">
+    <header style="background-color: rgb(17, 17, 17); height: 50px; display: flex; justify-content: end; align-items: center; padding-right: 50px; position: fixed; width: 100%; z-index: 50;">
+            <p class="headerText" id="home" style="cursor: pointer; color: white; font-weight: bold; font-family: Inconsolata; font-size: 1.2rem; margin: 0px; padding-left: 20px; padding-right: 20px;">Home</p>
+            <p class="headerText"  id="about" style="cursor: pointer; color: white; font-weight: bold; font-family: Inconsolata; font-size: 1.2rem; margin: 0px; padding-left: 20px; padding-right: 20px;">About</p>
+            <p class="headerText"  id="skills" style="cursor: pointer; color: white; font-weight: bold; font-family: Inconsolata; font-size: 1.2rem; margin: 0px; padding-left: 20px; padding-right: 20px;">Skills & Projects</p>
+            <p class="headerText"  id="art" style="cursor: pointer; color: white; font-weight: bold; font-family: Inconsolata; font-size: 1.2rem; margin: 0px; padding-left: 20px; padding-right: 20px;">Others</p>
+            <a class="headerText"  href="./assets/Viacrusis_CV.pdf" style="text-decoration: none;" download><p id="art" style="cursor: pointer; color: white; font-weight: bold; font-family: Inconsolata; font-size: 1.2rem; margin: 0px; padding-left: 20px; padding-right: 20px;">CV</p></a>
+    </header>
+
+    <div id="home" class="home" style="display: flex; flex-direction: column; justify-content: center; height: 100vh; align-items: center;">
+        <!-- <div class="faceBox" style="background-color: rgb(20, 20, 20); width: 40%; display: flex; justify-content: center; border-top-right-radius: 80px; border-bottom-right-radius: 80px;">
+            <img style="width: 450px; height: 450px;" src="./assets/face.png">
+        </div> -->
+
+
+        <p style="color: white; font-weight: 800; font-family: Inconsolata; font-size: 1.3rem; margin: 0px; margin-top: 10px;">Hi, I'm</p>
+        <div style="margin: 0px; display: inline-block; position: relative; margin-left: 10px; margin-right: 10px;">
+            <p id="mainName" class="angular mainName" style="cursor: pointer; color: white; font-weight: bold; font-family: Inconsolata; font-size: 5rem; margin: 0px; position: relative;">{Kirk Viacrusis}</p> 
+            <div class="line"></div>
+        </div>
+        <div style="display: flex; flex-direction: row; align-items: center; margin-top: 20px;">
+            <a class="icons" href="https://github.com/paranoid-android12" target="_blank" rel="noopener noreferrer"><img src="./assets/github_main.svg" style="width: 40px; height: 40px; margin-right: 20px;"></a>
+            <a class="icons" href="https://www.linkedin.com/in/chris-kirk-patrick-viacrusis-302464278" target="_blank" rel="noopener noreferrer"><img src="./assets/linkedin_main.svg" style="width: 40px; height: 40px; margin-right: 20px;"></a>
+            <a class="icons" href="https://www.facebook.com/profile.php?id=100010524542923" target="_blank" rel="noopener noreferrer"><img src="./assets/facebook.svg" style="width: 40px; height: 40px; margin-right: 20px;"></a>
+        </div> 
+
+    </div>
+
+    <div id="about" class="about" style="display: flex; flex-direction: row; justify-content: center; height: 100vh; align-items: center;">
+        <div class="faceBox" style="background-color: rgb(20, 20, 20); width: 40%; display: flex; justify-content: center; border-top-right-radius: 80px; border-bottom-right-radius: 80px;">
+            <img style="width: 450px; height: 450px;" src="./assets/face.png">
+        </div>
+
+        <div style="width: 60%; padding-left: 50px;">
+            <p style="color: white; font-weight: 800; font-family: Inconsolata; font-size: 4rem; margin: 0px; margin-top: 10px;">{ABOUT ME}</p>
+            
+            <div style="display: flex; flex-direction: row; align-items: center; margin-top: 20px;">
+                <img src="./assets/python.svg" style="width: 40px; margin-right: 10px;">
+                <img src="./assets/java.svg" style="width: 40px; margin-right: 10px;">
+                <img src="./assets/tailwind.svg" style="width: 40px; margin-right: 10px;">
+                <img src="./assets/php.svg" style="width: 40px; margin-right: 10px;">
+                <img src="./assets/html.svg" style="width: 40px; margin-right: 10px;">
+                <img src="./assets/css.svg" style="width: 40px; margin-right: 10px;">
+                <img src="./assets/js.svg" style="width: 40px; margin-right: 10px;">
+                <img src="./assets/ts.svg" style="width: 40px; margin-right: 10px;">
+            </div>
+            <p id="age" style="color: white; font-weight: bold; font-family: Inconsolata; font-size: 1.5rem; margin-top: 30px;">I'm a </p>
+
+            <p style="color: white; font-weight: bold; font-family: Inconsolata; font-size: 1.5rem; margin-top: 30px; padding-right: 40px;">
+                I've started programming with Python by doing small automation projects, but I slowly moved on with web-development and I've done multiple projects with it. I'm experienced with using Angular framework, but I'm looking forward to expand my knowledge further.
+            </p>
+        </div>
+    </div>
+
+    <div class="skills" style="display: flex; flex-direction: column; justify-content: start; height: 100vh; align-items: start; padding-left: 120px; padding-right: 120px;">
+        <!-- <div class="faceBox" style="background-color: rgb(20, 20, 20); width: 40%; display: flex; justify-content: center; border-top-right-radius: 80px; border-bottom-right-radius: 80px;">
+            <img style="width: 450px; height: 450px;" src="./assets/face.png">
+        </div> -->
+
+
+        <div style="margin: 0px; display: inline-block; position: relative; margin-left: 10px; margin-right: 10px; margin-top: 80px;">
+            <p style="cursor: pointer; color: white; font-weight: bold; font-family: Inconsolata; font-size: 3.5rem; margin: 0px; position: relative;">{FRAMEWORKS AND PROJECTS}</p> 
+            <div class="line"></div>
+        </div>
+
+        <div style="display: flex; flex-direction: column; align-items: center; margin-top: 20px;">
+            <div id="angularContainer" class="angularContainer" style="display: flex; flex-direction: row; align-items: center; cursor: pointer; margin-top: 20px;">
+                <div style="width: 200px; height: 200px; display: flex; flex-direction: row; justify-content: center; align-items: center;">
+                    <!-- <img class="angularImage" src="./assets/angular.svg" style="width: 190px; height: 190px; margin-right: 40px;"> -->
+                    <svg style="width: 190px; height: 190px; margin-right: 40px;" class="angularImage" width="18" height="20" viewBox="0 0 18 20"  xmlns="http://www.w3.org/2000/svg">
+                        <path class="angularPath" d="M8.99997 0.5L17.84 3.65L16.5 15.35L8.99997 19.5L1.49997 15.35L0.159973 3.65L8.99997 0.5ZM8.99997 2.6L3.46997 15H5.52997L6.63997 12.22H11.34L12.45 15H14.5L8.99997 2.6ZM10.62 10.5H7.38997L8.99997 6.63L10.62 10.5Z" fill="white"/>
+                    </svg>
+                        
+                </div>
+                <p style="color: white; font-weight: bold; font-family: Inconsolata; font-size: 1.7rem; margin-top: 30px; padding-right: 40px;">Most of the projects I've dabbled with were made with the Angular framework, so it's the framework I'm most familiar working with.</p>
+            </div>
+
+            <div id="square" class="square" style="display: none; flex-direction: column; justify-items: center; margin-top: 30px;">
+                <svg class="svgMain"  preserveAspectRatio="none"><rect x=0 y=0 width=100% height=100% rx="35" ry="35"/></svg>
+                <div id="fade" class="fade-in">
+
+                    <p id="typewriter" class="typewriter" style="color: white; font-weight: bold; font-family: Inconsolata; font-size: 1.4rem; margin-top: 40px; text-align: center; width: 80%;">Angular is the framework I'm most familiar with, and I had collaborated and developed numerous web applications based around it.</p>
+        
+                    <div style="display: flex; flex-direction: row; justify-content: space-around; align-items: center; height: 100%;">
+                        <div id="gcfams" class="gcfams" style="border: solid 3.5px rgb(227, 48, 54); border-radius: 15px; width: 250px; height: 250px; display: flex; justify-content: center; align-items: center; position: relative; background-color: rgb(20, 20, 20); box-shadow: 0 0 100px 10px #000 inset;">
+                            <p style="color: white; font-weight: bold; font-family: Inconsolata; font-size: 1.4rem; margin-top: 40px; text-align: center; position: absolute; top: -30px;">GC FaMS</p>
+                            <img src="./assets/logo.png" style="max-width: 60%;">
+                        </div>
+                        <div id="acs" class="acs" style="border: solid 3.5px rgb(227, 48, 54); border-radius: 15px; width: 250px; height: 250px; display: flex; justify-content: center; align-items: center; position: relative; background-color: rgb(20, 20, 20); box-shadow: 0 0 100px 10px #000 inset;">
+                            <p style="color: white; font-weight: bold; font-family: Inconsolata; font-size: 1.4rem; margin-top: 40px; text-align: center; position: absolute; top: -30px;">ACS Quotation</p>
+                            <img src="./assets/acs.png" style="max-height: 100%;">
+                        </div>
+                        <div id="eight" class="eight" style="border: solid 3.5px rgb(227, 48, 54); border-radius: 15px; width: 250px; height: 250px; display: flex; justify-content: center; align-items: center; position: relative; background-color: rgb(20, 20, 20); box-shadow: 0 0 100px 10px #000 inset;">
+                            <p style="color: white; font-weight: bold; font-family: Inconsolata; font-size: 1.4rem; margin-top: 40px; text-align: center; position: absolute; top: -30px;">888 Inventory</p>
+                            <img src="./assets/888.png" style="max-height: 60%;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="reactContainer" class="reactContainer" style="cursor: pointer; display: flex; flex-direction: row; align-items: center; margin-top: 20px;">
+                
+                <div style="width: 200px; height: 200px; display: flex; flex-direction: row; justify-content: center; align-items: center;">
+                    <svg style="width: 190px; height: 190px; margin-right: 40px;" class="reactImage"  width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="reactPath" d="M11 8.11003C12.03 8.11003 12.87 8.95003 12.87 10C12.87 11 12.03 11.85 11 11.85C9.97 11.85 9.13 11 9.13 10C9.13 8.95003 9.97 8.11003 11 8.11003ZM6.37 18C7 18.38 8.38 17.8 9.97 16.3C9.45 15.71 8.94 15.07 8.46 14.4C7.65422 14.3223 6.85311 14.2022 6.06 14.04C5.55 16.18 5.74 17.65 6.37 18ZM7.08 12.26L6.79 11.75C6.68 12.04 6.57 12.33 6.5 12.61C6.77 12.67 7.07 12.72 7.38 12.77L7.08 12.26ZM13.62 11.5L14.43 10L13.62 8.50003C13.32 7.97003 13 7.50003 12.71 7.03003C12.17 7.00003 11.6 7.00003 11 7.00003C10.4 7.00003 9.83 7.00003 9.29 7.03003C9 7.50003 8.68 7.97003 8.38 8.50003L7.57 10L8.38 11.5C8.68 12.03 9 12.5 9.29 12.97C9.83 13 10.4 13 11 13C11.6 13 12.17 13 12.71 12.97C13 12.5 13.32 12.03 13.62 11.5ZM11 4.78003C10.81 5.00003 10.61 5.23003 10.41 5.50003H11.59C11.39 5.23003 11.19 5.00003 11 4.78003ZM11 15.22C11.19 15 11.39 14.77 11.59 14.5H10.41C10.61 14.77 10.81 15 11 15.22ZM15.62 2.00003C15 1.62003 13.62 2.20003 12.03 3.70003C12.55 4.29003 13.06 4.93003 13.54 5.60003C14.36 5.68003 15.17 5.80003 15.94 5.96003C16.45 3.82003 16.26 2.35003 15.62 2.00003ZM14.92 7.74003L15.21 8.25003C15.32 7.96003 15.43 7.67003 15.5 7.39003C15.23 7.33003 14.93 7.28003 14.62 7.23003L14.92 7.74003ZM16.37 0.690029C17.84 1.53003 18 3.74003 17.38 6.32003C19.92 7.07003 21.75 8.31003 21.75 10C21.75 11.69 19.92 12.93 17.38 13.68C18 16.26 17.84 18.47 16.37 19.31C14.91 20.15 12.92 19.19 11 17.36C9.08 19.19 7.09 20.15 5.62 19.31C4.16 18.47 4 16.26 4.62 13.68C2.08 12.93 0.25 11.69 0.25 10C0.25 8.31003 2.08 7.07003 4.62 6.32003C4 3.74003 4.16 1.53003 5.62 0.690029C7.09 -0.149971 9.08 0.810028 11 2.64003C12.92 0.810028 14.91 -0.149971 16.37 0.690029ZM16.08 10C16.42 10.75 16.72 11.5 16.97 12.26C19.07 11.63 20.25 10.73 20.25 10C20.25 9.27003 19.07 8.37003 16.97 7.74003C16.72 8.50003 16.42 9.25003 16.08 10ZM5.92 10C5.58 9.25003 5.28 8.50003 5.03 7.74003C2.93 8.37003 1.75 9.27003 1.75 10C1.75 10.73 2.93 11.63 5.03 12.26C5.28 11.5 5.58 10.75 5.92 10ZM14.92 12.26L14.62 12.77C14.93 12.72 15.23 12.67 15.5 12.61C15.43 12.33 15.32 12.04 15.21 11.75L14.92 12.26ZM12.03 16.3C13.62 17.8 15 18.38 15.62 18C16.26 17.65 16.45 16.18 15.94 14.04C15.17 14.2 14.36 14.32 13.54 14.4C13.06 15.07 12.55 15.71 12.03 16.3ZM7.08 7.74003L7.38 7.23003C7.07 7.28003 6.77 7.33003 6.5 7.39003C6.57 7.67003 6.68 7.96003 6.79 8.25003L7.08 7.74003ZM9.97 3.70003C8.38 2.20003 7 1.62003 6.37 2.00003C5.74 2.35003 5.55 3.82003 6.06 5.96003C6.85311 5.79788 7.65422 5.67771 8.46 5.60003C8.94 4.93003 9.45 4.29003 9.97 3.70003Z" fill="white"/>
+                    </svg>
+                        
+                </div>
+                <p style="color: white; font-weight: bold; font-family: Inconsolata; font-size: 1.7rem; margin-top: 30px; padding-right: 40px;">React was my first framework that I had worked with, and I understood many programming concepts while using it.</p>
+            </div>
+
+            <div id="squareReact" class="squareReact" style="display: none; flex-direction: column; justify-items: center; margin-top: 30px;">
+                <svg  class="svgMain"  preserveAspectRatio="none"><rect class="rectReact" x=0 y=0 width=100% height=100% rx="35" ry="35"/></svg>
+                <div id="fadeReact" class="fade-in">
+    
+                    <p id="typewriterRe" class="typewriterRe" style="color: white; font-weight: bold; font-family: Inconsolata; font-size: 1.4rem; margin-top: 40px; text-align: center; width: 80%;">Though I only made a single complete project with it, it established my knowledge of the fundamentals for most web-development concepts.</p>
+        
+                    <div style="display: flex; flex-direction: row; justify-content: space-around; align-items: center; height: 100%;">
+                        <div id="bread" class="bread" style="border: solid 3.5px rgb(0, 216, 255); border-radius: 15px; width: 250px; height: 250px; display: flex; justify-content: center; align-items: center; position: relative; background-color: rgb(20, 20, 20); box-shadow: 0 0 100px 10px #000 inset;">
+                            <p style="color: white; font-weight: bold; font-family: Inconsolata; font-size: 1.4rem; margin-top: 40px; text-align: center; position: absolute; top: -30px;">Breaddit</p>
+                            <img src="./assets/bread.svg" style="max-height: 60%;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+    </div>
+
+    <div class="art" id="artMain" style="margin-top: 400px; display: flex; flex-direction: column; justify-content: start; height: 100vh; align-items: start; padding-left: 120px; padding-right: 120px;">
+        <div style="margin: 0px; display: inline-block; position: relative; margin-left: 10px; margin-right: 10px; margin-top: 80px;"></div>
+            <p style="cursor: pointer; color: white; font-weight: bold; font-family: Inconsolata; font-size: 3.5rem; margin: 0px; position: relative;">{MY ART / COLORINGS}</p> 
+            <div style="display: flex; flex-direction: row; width: 100%; margin-top: 30px;">
+                <div class="fill" style="padding-right: 5px;">
+                    <img src="./assets/catlon.png">
+                    <div class="overlay">Catlon</div>
+                </div>
+                <div class="fill" style="padding-left: 5px;">
+                    <img src="./assets/shek.png">
+                    <div class="overlay">Stone Golem</div>
+                </div>
+            </div>
+
+            <div style="display: flex; flex-direction: row; width: 100%; margin-top: 10px;">
+                <div class="fill" style="padding-left: 5px;">
+                    <img src="./assets/garou.png">
+                    <div class="overlay">Garou</div>
+                </div>
+                <div class="fill" style="padding-left: 5px;">
+                    <img src="./assets/senkuevil.png">
+                    <div class="overlay">Whyman</div>
+                </div>
+                <div class="fill" style="padding-left: 5px;">
+                    <img src="./assets/senku.png">
+                    <div class="overlay">Senku</div>
+                </div>
+            </div>   
+
+            <div style="display: flex; flex-direction: row; width: 100%; margin-top: 10px;">
+                <div class="fill" style="padding-left: 5px;">
+                    <img src="./assets/sakamoto.png">
+                    <div class="overlay">Sakamoto</div>
+                </div>
+                <div class="fill" style="padding-left: 5px;">
+                    <img src="./assets/innocent.png">
+                    <div class="overlay">Innocent Zero</div>
+                </div>
+                <div class="fill" style="padding-left: 5px;">
+                    <img src="./assets/rimuru.png">
+                    <div class="overlay">Rimuru</div>
+                </div>
+            </div>            
+        </div>
+        
+    </div>
+
+    <div style="height: 1000px; width: 100%;">
+        <p>a</p>
+    </div>
+</body>
